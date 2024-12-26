@@ -10,7 +10,6 @@
   # Clone the Repository:
     Open command prompt.
     Run the following command to clone the repository:
-        ```bash
         git clone https://github.com/Yashr24/LMS_Assignment.git
   
   # Navigate into the project directory:
@@ -19,18 +18,18 @@
   # Build the project 
     
     Run this command:
-        ```bash
         ./gradlew build
 
   # To run Tests:
     
-    Run this command:
-        ```bash
+    Run this command for first time:
         ./gradlew test
+        
+    Run this command to rerun test:
+        ./gradlew test --rerun-tasks
 
-    Or navigate to the ```LibraryTest``` class and click on the run button
+    Or navigate to the LibraryTest class and click on the run button
 
 
 # Test Report :-
-
-![alt text](<Screenshot 2024-12-26 161424.png>)
+![Screenshot 2024-12-26 161424](https://github.com/user-attachments/assets/a6e58187-d375-4a03-bc83-6d91065f465f)
