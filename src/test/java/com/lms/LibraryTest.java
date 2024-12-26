@@ -95,8 +95,6 @@ class LibraryTest {
     @Test
     public void testShouldRetrieveAllAvailableBooks() {
         User librarian = new User("Yash", User.Role.LIBRARIAN);
-        //Book book1 = new Book("9780132350884", "Clean Code", "Robert Cecil Martin", Year.of(2012));
-        //Book book2 = new Book("9780134685991", "Effective Java", "Joshua Bloch", Year.of(2018));
         Book book1 = new Book("9780060977498", "The God of Small Things", "Arundhati Roy", Year.of(1997));
         Book book2 = new Book("9780099578512", "Midnight's Children", "Salman Rushdie", Year.of(1981));
         library.addUser(librarian);
